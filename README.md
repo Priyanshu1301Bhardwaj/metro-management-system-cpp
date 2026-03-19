@@ -68,21 +68,73 @@ This project is a **C++ based Metro Management System** that simulates real-worl
 
 ## ▶️ How to Run
 
-### Compile
+### ⚠️ Requirements
+
+* C++ compiler (g++) installed
+
+---
+
+### 📥 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/metro-management-system-cpp.git
+cd metro-management-system-cpp
+```
+
+---
+
+### 📁 2. Ensure `data/` Folder Exists
+
+The project stores user data in `data/users.db`.
+
+If the folder is missing, create it:
+
+```bash
+mkdir data
+```
+
+---
+
+### 🔧 3. Compile the Program
 
 ```bash
 g++ src/main.cpp -o metro
 ```
 
-### Run
+---
+
+### ▶️ 4. Run the Program
+
+#### 🐧 Linux / 🍎 macOS
 
 ```bash
 ./metro
 ```
 
+#### 🪟 Windows
+
+```bash
+metro.exe
+```
+
 ---
 
-## 📂 Sample Input
+### ⚙️ 5. First Run
+
+* The program will create `users.db` automatically inside the `data/` folder
+* You may see:
+
+```
+No existing user data found. Starting fresh.
+```
+
+---
+
+### 📌 6. Provide Input
+
+Enter metro connections when prompted.
+
+Example:
 
 ```
 6
@@ -95,6 +147,17 @@ sector62 noidacity
 ```
 
 ---
+
+### 🎮 7. Use the System
+
+* Signup / Login
+* Book tickets
+* Check shortest routes
+* View history
+* Play Sudoku
+
+---
+
 
 ## 📌 Future Improvements
 
