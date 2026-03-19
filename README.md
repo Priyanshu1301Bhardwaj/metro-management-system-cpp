@@ -77,7 +77,7 @@ This project is a **C++ based Metro Management System** that simulates real-worl
 ### 📥 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/metro-management-system-cpp.git
+git clone https://github.com/Priyanshu1301Bhardwaj/metro-management-system-cpp.git
 cd metro-management-system-cpp
 ```
 
