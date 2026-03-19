@@ -102,13 +102,3 @@ sector62 noidacity
 * Real metro data integration
 * Dijkstra (weighted graph)
 * Online payment integration
-
----
-
-## 👨‍💻 Author
-
-Priyanshu Bhardwaj
-
----
-
-## ⭐ If you like this project, give it a star!
