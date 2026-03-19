@@ -1,0 +1,9 @@
+# Ignore compiled files
+*.out
+*.exe
+
+# Ignore user data
+users.db
+
+# macOS
+.DS_Store
