@@ -187,7 +187,7 @@ public:
 class UserManager
 {
     vector<User> users;
-    string storageFile = "users.db";
+    string storageFile = "data/users.db";
 
 public:
     UserManager() { load(); }
